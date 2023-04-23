@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<group name="group1" active="true">
+		<job name="job1" active="true" minutely="2">
+			<task name="task1" active="true">
+				<FileName>C:\Users\jayab\source\repos\hello-world\bin\Debug\net6.0\hello-world.exe</FileName>
+				<Arguments>dir test1</Arguments>
+				<WorkingDirectory>C:\Users\jayab</WorkingDirectory>
+			</task>
+			<task name="task2" active="true">
+				<FileName>C:\Users\jayab\source\repos\hello-world\bin\Debug\net6.0\hello-world.exe</FileName>
+				<Arguments>dir test1 test2</Arguments>
+				<WorkingDirectory>C:\Users\jayab\source\repos\hello-world</WorkingDirectory>
+			</task>
+			<!--minimum of info needed-->
+			<task name="task3">
+				<FileName>C:\Users\jayab\source\repos\hello-world\bin\Debug\net6.0\hello-world.exe</FileName>
+			</task>
+		</job>
+		<job name="job2" active="true" minutely="1" timeZone="Mountain Standard Time">
+			<task name="task1" active="true">
+				<FileName>C:\Users\jayab\source\repos\hello-world\bin\Debug\net6.0\hello-world.exe</FileName>
+				<Arguments>dir test1 test2 test3</Arguments>
+			</task>
+		</job>
+	</group>
+	<group name="group2">
+		<job name="job3" active="true" minutely="1" timeZone="Mountain Standard Time">
+			<task name="task1" active="true">
+				<FileName>C:\Users\jayab\source\repos\hello-world\bin\Debug\net6.0\hello-world.exe</FileName>
+				<Arguments>dir test1 test2 test3</Arguments>
+			</task>
+		</job>
+	</group>
+</root>

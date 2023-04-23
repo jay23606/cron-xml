@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "cron": {
+      "commandName": "Project",
+      "commandLineArgs": "jobs.xml"
+    }
+  }
+}
