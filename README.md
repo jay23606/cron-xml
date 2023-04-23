@@ -3,7 +3,7 @@ Simple cron-like execution of apps based on XML input
 
 Currently it is set up to run jobs and tasks serially and groups of jobs/tasks in parallel 
 
-Simply pass it the path to your executable as the FileName and by default it was run that executable once a day
+Simply pass it the path to your executable as the FileName and by default it will run that executable once a day
 
 Review this sample xml for more options such as Arguments, WorkingDirectory for the task
 
