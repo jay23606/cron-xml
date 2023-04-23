@@ -5,7 +5,14 @@ Currently it is set up to run jobs and tasks serially and groups of jobs/tasks i
 
 Simply pass it the path to your executable as the FileName and by default it was run that executable once a day
 
-Review this sample xml for more options 
+Review this sample xml for more options such as Arguments, WorkingDirectory for the task
+
+You can also give each group, job, and task a name and specify: 
+minutely=<minutes>
+hourly=<hours>
+daily=<days>
+
+You can also set whether group/job/task is active or not and the timeZone for the job (default is UTC time)
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
