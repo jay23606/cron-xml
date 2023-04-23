@@ -13,6 +13,8 @@ hourly=<hours>
 daily=<days>
 
 You can also set whether group/job/task is active or not and the timeZone for the job (default is UTC time)
+	
+You may also pass it different xml file such as cron yourxmlfile.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
